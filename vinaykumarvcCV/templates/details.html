@@ -1,0 +1,212 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+
+<head>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>{{ completeInfo.profile.name }}</title>
+        <link rel="icon" href="{{ completeInfo.profile.profilePhoto.fromRepo }}">
+        <meta property="og:title" content="{{ completeInfo.profile.name }}">
+        <meta property="og:image" itemprop="image" content="{{ completeInfo.profile.profilePhoto.fromRepo }}">
+        <meta name="description"
+            content="S/o {{ completeInfo.profile.fatherName }}, from {{ completeInfo.profile.location.name }}">
+        <meta property="og:description"
+            content="S/o {{ completeInfo.profile.fatherName }}, from {{ completeInfo.profile.location.name }}">
+        <meta property="og:image:url" content="{{ completeInfo.profile.profilePhoto.fromRepo }}">
+        <meta property="og:image:type" content="image/jpeg">
+        <meta name="msapplication-TileImage" content="{{ completeInfo.profile.profilePhoto.fromRepo }}">
+        <meta property="twitter:image" content="{{ completeInfo.profile.profilePhoto.fromRepo }}">
+        <meta name="twitter:card" content="{{ completeInfo.profile.profilePhoto.fromRepo }}">
+        <meta name="twitter:title" content="{{ completeInfo.profile.name }}">
+        <meta property="og:type" content="article">
+        <meta name="HandheldFriendly" content="true">
+        <meta name="apple-touch-fullscreen" content="YES">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="google-site-verification" content="Y1_gDaio9y737wxTeHp7wgR3ZiMloZjPELb_rjIu6vQ">
+        <meta name="next-head-count" content="19">
+        <link rel="preload" href="{% static 'css/91b5c76fa1ae5028.css' %}" as="style">
+        <link rel="stylesheet" href="{% static 'css/91b5c76fa1ae5028.css' %}" data-n-g=""><noscript
+            data-n-css=""></noscript>
+        <link rel="stylesheet" href="{% static 'css/self.css' %}">
+        <script src="{% static 'js/self.js' %}"></script>
+    </head>
+</head>
+
+<body class="bg-layout text-layoutText dark:bg-layoutDark dark:text-layoutDarkText">
+    <div id="__next">
+        <div
+            class="h-full flex flex-col px-6 sm:px-12 md:px-24 lg:px-48 xl:px-96 bg-layout text-layoutText dark:bg-layoutDark dark:text-layoutDarkText">
+            <nav class="flex items-center justify-between min-h-[10%]">
+                <ul class="flex justify-between h-full items-center gap-4">
+                    <li class="flex"><a
+                            class="rounded-md px-4 py-2 hover:bg-primary-100 dark:hover:bg-primaryDark-100 hover:text-layoutText hover:underline"
+                            href="/">
+                            <div class="font-bold text-sm flex items-center gap-1"><svg
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="1em" height="1em"
+                                    fill="currentColor" class="w-4 h-4">
+                                    <path
+                                        d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5ZM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5 5 5Z">
+                                    </path>
+                                </svg>
+                                <div>Home</div>
+                            </div>
+                        </a></li>
+                    <li class="flex"><a
+                            class="rounded-md px-4 py-2 hover:bg-primary-100 dark:hover:bg-primaryDark-100 hover:text-layoutText hover:underline button_background"
+                            href="/details">
+                            <div class="font-bold text-sm flex items-center gap-1"><svg
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="1em" height="1em"
+                                    fill="currentColor" class="w-4 h-4">
+                                    <path
+                                        d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z">
+                                    </path>
+                                    <path
+                                        d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z">
+                                    </path>
+                                </svg>
+                                <div>Details</div>
+                            </div>
+                        </a></li>
+                </ul>
+            </nav>
+            <main class="flex-1 slide-up">
+                <div id="details_common_content">
+                    <div style="opacity: 1; transform: translateY(0%) translateZ(0px);">
+                        <div class="w-full sm:w-3/4 mx-auto px-2 sm:px-0">
+                            <ul class="flex flex-wrap gap-2 items-center">
+                                <li class="flex flex-col items-center gap-1 cursor-pointer relative px-4 py-2 rounded">
+                                    Experience<div
+                                        class="absolute bottom-0 h-1 w-full bg-primary-200 dark:bg-primaryDark-200 dark:text-layoutText"
+                                        style="opacity: 1;"></div>
+                                </li>
+                                <li onclick="switchTabs('education')"
+                                    class="flex flex-col items-center gap-1 cursor-pointer relative px-4 py-2 rounded hover:bg-primary-100 hover:dark:bg-primaryDark-100 hover:dark:text-layoutText">
+                                    Education</li>
+                                <li onclick="switchTabs('skills')"
+                                    class="flex flex-col items-center gap-1 cursor-pointer relative px-4 py-2 rounded hover:bg-primary-100 hover:dark:bg-primaryDark-100 hover:dark:text-layoutText">
+                                    Skills</li>
+                                <li onclick="switchTabs('projects')"
+                                    class="flex flex-col items-center gap-1 cursor-pointer relative px-4 py-2 rounded hover:bg-primary-100 hover:dark:bg-primaryDark-100 hover:dark:text-layoutText">
+                                    Projects</li>
+                            </ul>
+                            <div class="mt-10">
+                                <div style="opacity: 1; transform: none;">
+                                    <ol id="experience" label="Experience"
+                                        class="border-gray-400 dark:border-white relative border-l-8 py-5">
+                                        {% for value in completeInfo.details.experience.value %}
+                                        <li class="ml-5 sm:ml-10 mb-5">
+                                            <div
+                                                class="border-gray-400 dark:border-white bg-layout dark:bg-layoutDark absolute w-6 h-6 border-4 rounded-full mt-6 -left-4">
+                                            </div>
+                                            <section
+                                                class="px-2 py-4 sm:px-4 w-full sm:shadow rounded border flex flex-col gap-4">
+                                                <div class="flex justify-between items-center">
+                                                    <div class="flex items-center gap-1"><svg
+                                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"
+                                                            width="1em" height="1em" fill="currentColor"
+                                                            class="w-5 h-5">
+                                                            <path
+                                                                d="M4 2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1Zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1Zm3.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1ZM4 5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1ZM7.5 5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm2.5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1ZM4.5 8a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm2.5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1Zm3.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Z">
+                                                            </path>
+                                                            <path
+                                                                d="M2 1a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V1Zm11 0H3v14h3v-2.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5V15h3V1Z">
+                                                            </path>
+                                                        </svg>
+                                                        <div>
+                                                            <div class="font-semibold">{{ value.name }}</div>
+                                                            <div class="text-xs">{{ value.startEnd }}</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="grid sm:grid-cols-2 gap-4">
+                                                    <div class="flex flex-col items-left"><span
+                                                            class="font-semibold text-sm">Location</span><span
+                                                            class="text-sm">{{ value.location }}</span></div>
+                                                    <div class="flex flex-col items-left"><span
+                                                            class="font-semibold text-sm">Role</span><span
+                                                            class="text-sm">{{ value.role }}</span></div>
+                                                    <div class="col-span-2 flex flex-col items-left"><span
+                                                            class="font-semibold text-sm">Projects</span><span
+                                                            class="text-sm">
+                                                            {% if value.projects is not None %}
+                                                            <div class="flex flex-col gap-2 mt-2">
+                                                                <section
+                                                                    class="px-2 py-4 sm:px-4 w-full sm:shadow rounded border flex flex-col gap-4">
+                                                                    <div class="flex justify-between items-center">
+                                                                        <div
+                                                                            class="font-semibold flex items-center gap-1">
+                                                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                                                viewBox="0 0 16 16" width="1em"
+                                                                                height="1em" fill="currentColor"
+                                                                                class="w-5 h-5">
+                                                                                <path
+                                                                                    d="M4 2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1Zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1Zm3.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1ZM4 5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1ZM7.5 5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm2.5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1ZM4.5 8a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm2.5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1Zm3.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Z">
+                                                                                </path>
+                                                                                <path
+                                                                                    d="M2 1a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V1Zm11 0H3v14h3v-2.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5V15h3V1Z">
+                                                                                </path>
+                                                                            </svg>
+                                                                            <div>Portfolio Website development</div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div>
+                                                                        <div class="flex flex-col items-left"><span
+                                                                                class="font-semibold text-sm">Technologies</span><span
+                                                                                class="text-sm">
+                                                                                <div class="mt-2 flex flex-wrap gap-1">
+                                                                                    {% for i in value.projects.technologies %}
+                                                                                    <div
+                                                                                        class="text-sm rounded-md font-medium px-2.5 py-0.5 bg-primary-200 dark:bg-primaryDark-200 dark:text-layoutText inline-flex items-center text-center whitespace-nowrap align-baseline">
+                                                                                        {{ i }}</div>
+                                                                                    {% endfor %}
+                                                                                </div>
+                                                                            </span></div>
+                                                                    </div>
+                                                                </section>
+                                                            </div>
+                                                            {% endif %}
+                                                        </span></div>
+                                                </div>
+                                            </section>
+                                        </li>
+                                        {% endfor %}
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </main>
+            <footer class="min-h-[7%] flex items-center justify-center">
+                <div class="flex items-center justify-center"> <time id="timestamp"
+                        datetime="Sat Nov 11 2023 07:19:52 GMT+0530" class="px-5 py-1 sm:py-0 text-center">Sat 11th Nov
+                        2023 7:19:52am</time>
+                </div>
+                <script>
+                    function updateTimestamp() {
+                        const timestampElement = document.getElementById('timestamp');
+                        const now = new Date();
+                        const options = {
+                            weekday: 'short',
+                            day: 'numeric',
+                            month: 'short',
+                            year: 'numeric',
+                            hour: 'numeric',
+                            minute: 'numeric',
+                            second: 'numeric',
+                            hour12: true,
+                        };
+                        timestampElement.textContent = now.toLocaleString('en-US', options);
+                    }
+                    setInterval(updateTimestamp, 1000);
+                    updateTimestamp();
+                </script>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>
