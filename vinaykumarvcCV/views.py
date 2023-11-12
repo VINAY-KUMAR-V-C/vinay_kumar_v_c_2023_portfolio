@@ -19,7 +19,7 @@ class CompleteInfo():
             },
             'fatherName': 'CHIKKAIAH (Kumar)',
             'profilePhoto':{
-                'fromStatic' : 'static/image/profile1.png',
+                'fromStatic' : 'static/image/IMG_2907.jpeg',
                 'fromRepo' : 'https://avatars.githubusercontent.com/u/84114504?u=0735d78ecd4b4386e7518382c34abd67e532c316&v=4'
             }
         },
