@@ -18,6 +18,7 @@ class CompleteInfo():
                 'link': 'https://www.google.com/maps/place/Bangalore%2C%20Karnataka',
             },
             'fatherName': 'CHIKKAIAH (Kumar)',
+            'CVLink':'static/image/cv.pdf',
             'profilePhoto':{
                 'fromStatic' : 'static/image/IMG_2907.jpg',
                 'fromRepo' : 'https://avatars.githubusercontent.com/u/84114504?v=4'
