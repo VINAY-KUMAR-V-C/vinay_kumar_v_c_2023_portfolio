@@ -14,10 +14,10 @@ class CompleteInfo():
                 'link': 'https://www.google.com/search?q=ZOHO'
             },
             'location': {
-                'name': 'Bangaluru, Karnataka',
+                'name': 'Bengaluru, Karnataka',
                 'link': 'https://www.google.com/maps/place/Bangalore%2C%20Karnataka',
             },
-            'fatherName': 'CHIKKAIAH (Kumar)',
+            'description': 'Software engineer ,from Bengaluru Karnataka',
             'CVLink':'static/image/cv.pdf',
             'profilePhoto':{
                 'fromStatic' : 'static/image/IMG_2907.jpg',
@@ -80,20 +80,20 @@ class CompleteInfo():
                     {
                         'name': 'SKSJTI Engineering College',
                         'startEnd': '05/08/2018 - 15/07/2022',
-                        'location': 'Bangaluru',
+                        'location': 'Bengaluru',
                         'branch': 'Computer Science',
                         'course': 'Graducation - B.Tech/BE'
                     },
                     {
                         'name': 'Vidya Kirana PU College',
                         'startEnd': '10/07/2016 - 01/05/2018',
-                        'location': 'Bangaluru',
+                        'location': 'Bengaluru',
                         'course': 'Class XII / Intermediate'
                     },
                     {
                         'name': 'BLOSSOMS School',
                         'startEnd': '4/05/2015 - 15/05/2016',
-                        'location': 'Bangaluru',
+                        'location': 'Bengaluru',
                         'course': 'Class X / SSLC'
                     }
                 ]
