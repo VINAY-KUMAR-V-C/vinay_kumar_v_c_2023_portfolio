@@ -119,7 +119,7 @@ class CompleteInfo():
             'projects': [
                 {
                     'name': 'Data science based online yoga trainer',
-                    'technologies': ['Pyhton', 'Flask', 'HTML', 'JS', 'SQL', 'etc...'],
+                    'technologies': ['Python', 'Flask', 'HTML', 'JS', 'SQL', 'etc...'],
                     'repo': [
                         {
                             'name': 'Final year project',
