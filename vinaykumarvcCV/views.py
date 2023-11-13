@@ -46,7 +46,7 @@ class CompleteInfo():
             },
             'instagram': {
                 'name': 'instagram',
-                'link': 'value'
+                'link': 'https://instagram.com/vinay_kumar_v_c?igshid=MWRsd2sweThldnl0Yg%3D%3D&utm_source=qr'
             }
         },
         'details': {
