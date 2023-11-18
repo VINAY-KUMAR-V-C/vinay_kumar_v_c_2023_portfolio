@@ -113,7 +113,7 @@ class CompleteInfo():
                 },
                 {
                     'name': 'JavaScript Libraries',
-                    'value': ['Axios', 'Yup', 'Joi', 'Socket.io', 'Lodash', 'Immer', 'Bcrypt', 'JsonWebToken', 'etc...']
+                    'value': ['Axios','AJAX','ASYNC-AWAIT','etc...']
                 },
             ],
             'projects': [
