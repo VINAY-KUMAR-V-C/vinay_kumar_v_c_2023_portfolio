@@ -18,7 +18,7 @@ class CompleteInfo():
                 'link': 'https://www.google.com/maps/place/Bangalore%2C%20Karnataka',
             },
             'description': 'Software engineer ,from Bengaluru Karnataka',
-            'CVLink':'static/image/cv.pdf',
+            'CVLink':'static/image/Resume2023.pdf',
             'profilePhoto':{
                 'fromStatic' : 'static/image/IMG_2907.jpg',
                 'fromRepo' : 'https://avatars.githubusercontent.com/u/84114504?v=4'
