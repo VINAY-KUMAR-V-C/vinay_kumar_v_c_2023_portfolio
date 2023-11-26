@@ -69,7 +69,7 @@ class CompleteInfo():
                         'projects':
                             {
                                 'name': 'Portfolio Website development',
-                                'technologies': ['Python', 'Flask', 'MySQL', 'JS']
+                                'technologies': ['Python','Django', 'Flask', 'MySQL', 'JS']
                             }
                     }
                 ]
