@@ -27,7 +27,7 @@ class CompleteInfo():
         'contactInfo': {
             'linkedin': {
                 'name': 'linkedIn',
-                'link': 'https://www.linkedin.com/in/vinay-kumar-031b26199/'
+                'link': 'https://www.linkedin.com/in/VinayKumarVC/'
             },
             'facebook': {
                 'name': 'facebook',
