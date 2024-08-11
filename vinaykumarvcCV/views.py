@@ -122,6 +122,20 @@ class CompleteInfo():
             ],
             'projects': [
                 {
+                    'name': 'A CRUD app with session management.',
+                    'technologies': ['NodeJS', 'Express', 'PSQL/pg', 'ejs', 'SQL', 'etc...'],
+                    'repo': [
+                        {
+                            'name': 'VAV_IT_IS',
+                            'link': 'https://github.com/VINUVARDHAN/VAV_IT_IS'
+                        }
+                    ],
+                    'deployment': {
+                        'name': 'Vercel',
+                        'link': 'https://vav-it-is.vercel.app/'
+                    }
+                },
+                {
                     'name': 'Data science based online yoga trainer',
                     'technologies': ['Python', 'Flask', 'HTML', 'JS', 'SQL', 'etc...'],
                     'repo': [
@@ -149,7 +163,7 @@ class CompleteInfo():
                         }
                     ],
                     'deployment': {
-                        'name': 'https://vinay-kumar-v-c.vercel.app/resume/',
+                        'name': 'Vercel',
                         'link': 'https://vinay-kumar-v-c.vercel.app/resume/'
                     }
                 },
