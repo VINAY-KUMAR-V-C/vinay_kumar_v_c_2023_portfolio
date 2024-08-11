@@ -131,7 +131,7 @@ class CompleteInfo():
                         }
                     ],
                     'deployment': {
-                        'name': 'Vercel',
+                        'name': 'https://vav-it-is.vercel.app/',
                         'link': 'https://vav-it-is.vercel.app/'
                     }
                 },
@@ -163,7 +163,7 @@ class CompleteInfo():
                         }
                     ],
                     'deployment': {
-                        'name': 'Vercel',
+                        'name': 'https://vinay-kumar-v-c.vercel.app/resume/',
                         'link': 'https://vinay-kumar-v-c.vercel.app/resume/'
                     }
                 },
