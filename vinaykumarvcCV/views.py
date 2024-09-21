@@ -35,7 +35,7 @@ class CompleteInfo():
             },
             'github': {
                 'name': 'github',
-                'link': 'https://github.com/VINUVARDHAN'
+                'link': 'https://github.com/VINAY-KUMAR-V-C'
             },
             'twitter': {
                 'name': 'twitter',
@@ -127,7 +127,7 @@ class CompleteInfo():
                     'repo': [
                         {
                             'name': 'VAV_IT_IS',
-                            'link': 'https://github.com/VINUVARDHAN/VAV_IT_IS'
+                            'link': 'https://github.com/VINAY-KUMAR-V-C/VAV_IT_IS'
                         }
                     ],
                     'deployment': {
@@ -141,7 +141,7 @@ class CompleteInfo():
                     'repo': [
                         {
                             'name': 'Final year project',
-                            'link': 'https://github.com/VINUVARDHAN/BE_projects/tree/master/FINAL%20YEAR%20PROJECT%20VINAY'
+                            'link': 'https://github.com/VINAY-KUMAR-V-C/BE_projects/tree/master/FINAL%20YEAR%20PROJECT%20VINAY'
                         }
                     ],
                     'deployment': {
@@ -155,11 +155,11 @@ class CompleteInfo():
                     'repo': [
                         {
                             'name': 'Portfolio using Django',
-                            'link': 'https://github.com/VINUVARDHAN/portfolioUsingDjango'
+                            'link': 'https://github.com/VINAY-KUMAR-V-C/portfolioUsingDjango'
                         },
                         {
                             'name': 'Portfolio using Flask',
-                            'link': 'https://github.com/VINUVARDHAN/BE_projects/tree/master/portfolio'
+                            'link': 'https://github.com/VINAY-KUMAR-V-C/BE_projects/tree/master/portfolio'
                         }
                     ],
                     'deployment': {
@@ -173,7 +173,7 @@ class CompleteInfo():
                     'repo': [
                         {
                             'name': 'DBMS project',
-                            'link': 'https://github.com/VINUVARDHAN/BE_projects/tree/master/DBMS%20project/minproject-3'
+                            'link': 'https://github.com/VINAY-KUMAR-V-C/BE_projects/tree/master/DBMS%20project/minproject-3'
                         }
                     ],
                     'deployment': {
