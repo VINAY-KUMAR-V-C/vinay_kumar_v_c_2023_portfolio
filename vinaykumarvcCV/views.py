@@ -63,7 +63,11 @@ class CompleteInfo():
                         'startEnd': '17/08/2022 - Current',
                         'location': 'Chennai',
                         'role': 'Software Developer (MTS)',
-                        'projects': None,
+                        'projects': 
+                            {
+                                'name': 'Completed rich text field support, Worked on formula fields and Notes module enchanments of CRM product',
+                                'technologies': ['Java','Spring', 'JS', 'Python', 'CSS','PSQL','MySQL']
+                            }
                     },
                     {
                         'name': '10 Seconds (Internship)',
