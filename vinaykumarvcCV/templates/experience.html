@@ -54,7 +54,7 @@
                 <div style="opacity: 1; transform: none;">
                     <ol id="experience" label="Experience"
                         class="border-gray-400 dark:border-white relative border-l-8 py-5">
-                        {% for value in completeInfo.details.experience.value %}
+                        {% for exp in completeInfo.details.experience.value %}
                         <li class="ml-5 sm:ml-10 mb-5">
                             <div
                                 class="border-gray-400 dark:border-white bg-layout dark:bg-layoutDark absolute w-6 h-6 border-4 rounded-full mt-6 -left-4">
@@ -71,19 +71,19 @@
                                             </path>
                                         </svg>
                                         <div>
-                                            <div class="font-semibold">{{ value.name }}</div>
-                                            <div class="text-xs">{{ value.startEnd }}</div>
+                                            <div class="font-semibold">{{ exp.name }}</div>
+                                            <div class="text-xs">{{ exp.startEnd }}</div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="grid sm:grid-cols-2 gap-4">
                                     <div class="flex flex-col items-left"><span class="font-semibold text-sm">Location</span><span
-                                            class="text-sm">{{ value.location }}</span></div>
+                                            class="text-sm">{{ exp.location }}</span></div>
                                     <div class="flex flex-col items-left"><span class="font-semibold text-sm">Role</span><span
-                                            class="text-sm">{{ value.role }}</span></div>
+                                            class="text-sm">{{ exp.role }}</span></div>
                                     <div class="col-span-2 flex flex-col items-left"><span class="font-semibold text-sm">Projects</span><span
                                             class="text-sm">
-                                            {% if value.projects is not None %}
+                                            {% if exp.projects is not None %}
                                             <div class="flex flex-col gap-2 mt-2">
                                                 <section class="px-2 py-4 sm:px-4 w-full sm:shadow rounded border flex flex-col gap-4">
                                                     <div class="flex justify-between items-center">
@@ -97,14 +97,14 @@
                                                                     d="M2 1a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V1Zm11 0H3v14h3v-2.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5V15h3V1Z">
                                                                 </path>
                                                             </svg>
-                                                            <div>{{ value.projects.name }}</div>
+                                                            <div>{{ exp.projects.name }}</div>
                                                         </div>
                                                     </div>
                                                     <div>
                                                         <div class="flex flex-col items-left"><span
                                                                 class="font-semibold text-sm">Technologies</span><span class="text-sm">
                                                                 <div class="mt-2 flex flex-wrap gap-1">
-                                                                    {% for i in value.projects.technologies %}
+                                                                    {% for i in exp.projects.technologies %}
                                                                     <div
                                                                         class="text-sm rounded-md font-medium px-2.5 py-0.5 bg-primary-200 dark:bg-primaryDark-200 dark:text-layoutText inline-flex items-center text-center whitespace-nowrap align-baseline">
                                                                         {{ i }}</div>
