@@ -65,7 +65,7 @@ class CompleteInfo():
                         'role': 'Software Developer (MTS)',
                         'projects': 
                             {
-                                'name': ['Developed rich text field', 'Worked on formula fields and Notes module enchanments','Completed handling for coverting Multiline to rich text fields'],
+                                'name': ['Developed rich text field support', 'Worked on formula fields and notes module enchanments','Completed handling for coverting multiline to rich text fields'],
                                 'technologies': ['Java','Spring', 'JS', 'Python', 'CSS','PSQL','MySQL']
                             }
                     },
@@ -76,7 +76,7 @@ class CompleteInfo():
                         'role': 'Project Trainee',
                         'projects':
                             {
-                                'name': ['Portfolio Website development'],
+                                'name': ['Developed portfolio website'],
                                 'technologies': ['Python','Django', 'Flask', 'MySQL', 'JS']
                             }
                     }
