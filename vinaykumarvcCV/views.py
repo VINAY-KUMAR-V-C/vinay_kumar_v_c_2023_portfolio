@@ -59,13 +59,13 @@ class CompleteInfo():
                 'name': 'experience',
                 'value': [
                     {
-                        'name': 'Zoho',
+                        'name': 'Zoho CRM',
                         'startEnd': '17/08/2022 - Current',
                         'location': 'Chennai',
                         'role': 'Software Developer (MTS)',
                         'projects': 
                             {
-                                'name': 'Completed rich text field support, Worked on formula fields and Notes module enchanments of CRM product',
+                                'name': ['Developed rich text field', 'Worked on formula fields and Notes module enchanments','Completed handling for coverting Multiline to rich text fields'],
                                 'technologies': ['Java','Spring', 'JS', 'Python', 'CSS','PSQL','MySQL']
                             }
                     },
@@ -76,7 +76,7 @@ class CompleteInfo():
                         'role': 'Project Trainee',
                         'projects':
                             {
-                                'name': 'Portfolio Website development',
+                                'name': ['Portfolio Website development'],
                                 'technologies': ['Python','Django', 'Flask', 'MySQL', 'JS']
                             }
                     }
