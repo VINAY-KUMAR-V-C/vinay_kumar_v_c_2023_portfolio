@@ -6,18 +6,18 @@ class CompleteInfo():
         'profile': {
             'name': 'Vinay Kumar V C',
             'company': {
-                'name': 'Zoho',
+                'name': 'PayPal',
                 'role': {
-                    'name':'Software Developer (MTS)',
-                    'link':'https://www.google.com/search?q=Software%20Developer%20or%20MTS'
+                    'name':'Software Engineer',
+                    'link':'https://www.google.com/search?q=Software+Engineer'
                 },  
-                'link': 'https://www.google.com/search?q=ZOHO'
+                'link': 'https://www.google.com/search?q=PayPal'
             },
             'location': {
                 'name': 'Bengaluru, Karnataka',
                 'link': 'https://www.google.com/maps/place/Bangalore%2C%20Karnataka',
             },
-            'description': 'Software engineer ,@ ZOHO CRM',
+            'description': 'Software Engineer @ PayPal',
             'CVLink':'static/image/VinayKumarVC.pdf',
             'profilePhoto':{
                 'fromStatic' : 'static/image/IMG_2907.jpg',
@@ -59,8 +59,19 @@ class CompleteInfo():
                 'name': 'experience',
                 'value': [
                     {
+                        'name': 'PayPal',
+                        'startEnd': '15/12/2025 - Current',
+                        'location': 'Chennai',
+                        'role': 'Software Engineer',
+                        'projects': 
+                            {
+                                'name': [],
+                                'technologies': []
+                            }
+                    },
+                    {
                         'name': 'Zoho CRM',
-                        'startEnd': '17/08/2022 - Current',
+                        'startEnd': '17/08/2022 - 10/12/2025',
                         'location': 'Chennai',
                         'role': 'Software Developer (MTS)',
                         'projects': 
