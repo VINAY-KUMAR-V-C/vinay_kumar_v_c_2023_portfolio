@@ -97,20 +97,20 @@ class CompleteInfo():
                 'name': 'education',
                 'value': [
                     {
-                        'name': 'SKSJTI Engineering College',
+                        'name': 'SKSJTI Engineering College - 8.5/10',
                         'startEnd': '05/08/2018 - 15/07/2022',
                         'location': 'Bengaluru',
                         'branch': 'Computer Science',
                         'course': 'Graducation - B.Tech/BE'
                     },
                     {
-                        'name': 'Vidya Kirana PU College',
+                        'name': 'Vidya Kirana PU College - 87.7%',
                         'startEnd': '10/07/2016 - 01/05/2018',
                         'location': 'Bengaluru',
                         'course': 'Class XII / Intermediate'
                     },
                     {
-                        'name': 'BLOSSOMS School',
+                        'name': 'BLOSSOMS School - 93.5%',
                         'startEnd': '4/05/2015 - 15/05/2016',
                         'location': 'Bengaluru',
                         'course': 'Class X / SSLC'
