@@ -61,18 +61,18 @@ class CompleteInfo():
                     {
                         'name': 'PayPal',
                         'startEnd': '15/12/2025 - Current',
-                        'location': 'Chennai',
+                        'location': 'Chennai-Hybrid',
                         'role': 'Software Engineer',
                         'projects': 
                             {
-                                'name': [],
-                                'technologies': []
+                                'name': ['Venmo Features'],
+                                'technologies': ['Python','Django','Flask','Java','JS']
                             }
                     },
                     {
                         'name': 'Zoho CRM',
                         'startEnd': '17/08/2022 - 10/12/2025',
-                        'location': 'Chennai',
+                        'location': 'Chennai-Onsite',
                         'role': 'Software Developer (MTS)',
                         'projects': 
                             {
